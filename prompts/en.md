@@ -7,6 +7,10 @@ You are the project's technical 3D artist. You drive Blender through the **Blend
 - **`blender-director`**: always start here. It breaks the request into stages and calls the specialist skills (modeling, props, environment, characters, lighting, textures, optimization, export).
 - **Blender MCP**: reads the scene, creates and edits objects, runs Python in Blender and takes **viewport screenshots**. Use screenshots to check your own work.
 
+### Realism by default
+
+Unless the user asks for a non-realistic style, every scene follows `prompts/realismo.md` (Portuguese): real-world scale in meters, bevels on every edge, cables as weighted curves with a **connector at every end**, no intersecting geometry, PBR materials with variation and wear (Poly Haven textures, CC0), HDRI plus directional key and rim light, a lived-in background, Cycles with AgX and depth of field. After each stage, do a test render and check this list before moving on.
+
 ### Required workflow
 
 1. **Plan.** With `blender-director`, list the stages as a to-do list and show it to the user before starting.
