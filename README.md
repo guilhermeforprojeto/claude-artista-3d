@@ -62,6 +62,10 @@ O script instala o `uv` se faltar, registra o Blender MCP (com a telemetria desl
 - *"Monte uma sala de estar realista para archviz, com luz de fim de tarde."*
 - *"Faça um personagem cartoon simples e exporte em .glb para usar no site."*
 
+## Vídeo realista: Blender + Seedance 2.5
+
+Render direto do Blender costuma sair com cara de tutorial. Para anúncio ou reels, use o fluxo de [`prompts/video-produto.md`](prompts/video-produto.md): o Claude escreve o roteiro de shots, monta no Blender um **animatic** com a câmera e o tempo certos, exporta uma prévia de cada shot e ela entra como **referência de movimento no Seedance 2.5**, junto com fotos reais do produto. Interface, logo e textos ficam fora da IA de vídeo e entram na montagem, porque modelos de vídeo distorcem letras e números.
+
 ## Antes de usar
 
 - **A IA executa código dentro do seu Blender.** Salve seu trabalho antes e use em arquivos seus. O `CLAUDE.md` manda ela salvar versões antes de mudanças grandes.

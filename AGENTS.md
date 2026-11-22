@@ -41,6 +41,10 @@ Antes de mexer no Blender, confirme com o usuário, numa única mensagem curta:
 
 Se ele não souber, proponha padrões (ex.: stylized, pronto para Unreal, FBX + `.blend`) e siga.
 
+## Passo 3b: se o pedido for um vídeo realista
+
+Se o usuário quer um **vídeo de produto, anúncio ou reels com aparência real**, siga também [`prompts/video-produto.md`](prompts/video-produto.md): o Blender vira o storyboard animado (câmera, posições, tempo) e o realismo vem do Seedance 2.5, que recebe a prévia como referência. Comece pelo roteiro de shots e só abra o Blender depois que ele for aprovado.
+
 ## Passo 4: produza seguindo o `CLAUDE.md`
 
 Plano do `blender-director` → blockout → print do viewport → refino → materiais e iluminação → otimização → exportação, mostrando prints ao usuário a cada etapa importante.
